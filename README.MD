@@ -1,6 +1,7 @@
 # Projeto: Sistema de Login
 ![LabelCalculadora](/assets/login.png)
-Uma simples calculadora para ajuda-lo a realizar contas do seu dia a dia.
+
+O sistema verifica a autenticidade das credenciais inseridas pelo usuário, comparando-as com as armazenadas em um banco de dados seguro.
 
 ## índice
 - <a href="#funcionalidades-do-projeto">Funcionalidades do Projeto</a>
@@ -9,7 +10,18 @@ Uma simples calculadora para ajuda-lo a realizar contas do seu dia a dia.
 - <a href="#tecnologias-utilizadas">Tecnologias Utilizadas<a>
 
 ## Funcionalidades do Projeto
-- [x] Calculos simples
+- [x] Acesso Seguro
+- [x] Cadastro de Usuários
+- [x] Login de Usuários
+- [X] Gerenciamento de Permissões
+- [X] Autenticação de Usuários
+- [X] Integração com Banco de Dados
+- [X] API RESTful para acesso aos dados
+- [X] Interface gráfica amigável
+- [X] Documentação completa
+- [X] Testes unitários e de integração
+- [X] Deploy em ambiente de produção
+
 
 ## Layout
 - CSS
