@@ -1,5 +1,5 @@
-# Projeto: Calculadora Simples
-![LabelCalculadora](/assets/cadastrodeproduto.png)
+# Projeto: Sistema de Login
+![LabelCalculadora](/assets/login.png)
 Uma simples calculadora para ajuda-lo a realizar contas do seu dia a dia.
 
 ## índice
@@ -16,7 +16,7 @@ Uma simples calculadora para ajuda-lo a realizar contas do seu dia a dia.
 <!--"Imagens"-->
 
 ## Demonstração
-![Link demonstraçãoo](/assets/cadastrodeproduto.gif)
+![Link demonstraçãoo](/assets/login.gif)
 
 ## Tecnologias utilizadas
 - Java Script
