@@ -13,14 +13,14 @@ O sistema verifica a autenticidade das credenciais inseridas pelo usuário, comp
 - [x] Acesso Seguro
 - [x] Cadastro de Usuários
 - [x] Login de Usuários
-- [X] Gerenciamento de Permissões
-- [X] Autenticação de Usuários
-- [X] Integração com Banco de Dados
-- [X] API RESTful para acesso aos dados
-- [X] Interface gráfica amigável
-- [X] Documentação completa
-- [X] Testes unitários e de integração
-- [X] Deploy em ambiente de produção
+- [x] Gerenciamento de Permissões
+- [x] Autenticação de Usuários
+- [x] Integração com Banco de Dados
+- [x] API RESTful para acesso aos dados
+- [x] Interface gráfica amigável
+- [x] Documentação completa
+- [x] Testes unitários e de integração
+- [x] Deploy em ambiente de produção
 
 
 ## Layout
