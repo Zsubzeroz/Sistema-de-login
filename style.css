@@ -1,0 +1,202 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: 'Jost', sans-serif;
+    background: linear-gradient(to bottom, #0f0c29, #302b63, #24243e);
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  .form-container {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    width: 100%;
+  }
+  
+  .form-wrapper {
+    position: relative;
+  }
+  
+  .form-header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .form-header h2 {
+    color: #573b8a;
+    font-size: 2.5em;
+    margin-bottom: 5px;
+  }
+  
+  .form-header p {
+    color: #573b8a;
+    font-size: 1em;
+  }
+  
+  .login-form, .signup-form {
+    display: none;
+  }
+  
+  .login-form {
+    display: block;
+  }
+  
+  .signup-form {
+    display: block;
+  }
+  
+  .form-header h3 {
+    color: #573b8a;
+    font-size: 1.5em;
+    margin-bottom: 20px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  button[type="submit"] {
+    width: 100%;
+    padding: 12px;
+    background-color: #573b8a;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #6d44b8;
+  }
+  
+  .form-toggle {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .toggle-label {
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+  }
+  
+  .toggle-label input {
+    display: none;
+  }
+  
+  .toggle-text {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+  }
+  
+  .toggle-text span {
+    color: #573b8a;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  .toggle-text.active {
+    background-color: #573b8a;
+    color: #fff;
+  }
+  
+  .login-text {
+    display: none;
+  }
+  
+  .signup-text {
+    display: none;
+  }
+  
+  .login-form .login-text {
+    display: block;
+  }
+  
+  .signup-form .signup-text {
+    display: block;
+  }
+  
+  /* Style for the "Esqueceu a senha?" link */
+  .login-form p {
+    color: #573b8a;
+    font-size: 0.8em;
+    margin-top: 10px;
+    text-align: center;
+  }
+  
+  /* Style for the "Criar Conta" button */
+  .signup-form p {
+    color: #573b8a;
+    font-size: 0.8em;
+    margin-top: 10px;
+    text-align: center;
+  }
+  
+  /* Style for the "Esqueceu a senha?" link */
+  .login-form p {
+    color: #573b8a;
+    font-size: 0.8em;
+    margin-top: 10px;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  .login-form p:hover {
+    text-decoration: underline;
+  }
+  
+  /* Style for the "Criar Conta" button */
+  .signup-form p {
+    color: #573b8a;
+    font-size: 0.8em;
+    margin-top: 10px;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  .signup-form p:hover {
+    text-decoration: underline;
+  }
+  
+  #form-toggle:checked ~ .login-form {
+    display: none;
+  }
+  
+  #form-toggle:checked ~ .signup-form {
+    display: block;
+  }
+  
+  #form-toggle:checked ~ .toggle-text {
+    background-color: #573b8a;
+    color: #fff;
+  }

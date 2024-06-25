@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Sistema de Login</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Jost:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <div class="form-container">
+      <div class="form-wrapper">
+        <div class="form-header">
+          <h2>Bem-vindo!</h2>
+          <p>Faça login ou crie uma conta</p>
+        </div>
+        <form class="login-form">
+          <h3>Login</h3>
+          <input type="email" placeholder="Email" required>
+          <input type="password" placeholder="Senha" required>
+          <button type="submit">Entrar</button>
+          <p>Esqueceu a senha?</p>
+        </form>
+        <form class="signup-form">
+          <h3>Cadastre-se</h3>
+          <input type="text" placeholder="Nome" required>
+          <input type="email" placeholder="Email" required>
+          <input type="password" placeholder="Senha" required>
+          <button type="submit">Criar Conta</button>
+        </form>
+        <div class="form-toggle">
+          <label class="toggle-label" for="form-toggle">
+            <input type="checkbox" id="form-toggle">
+            <span class="toggle-text">
+              <span class="login-text">Login</span>
+              <span class="signup-text">Criar Conta</span>
+            </span>
+          </label>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
