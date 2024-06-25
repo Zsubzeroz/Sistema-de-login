@@ -34,6 +34,7 @@ O sistema verifica a autenticidade das credenciais inseridas pelo usuário, comp
 - Java Script
 - CSS
 - HTML
+- PHP
 
 <!--## Como rodar este o projeto?-->
 
